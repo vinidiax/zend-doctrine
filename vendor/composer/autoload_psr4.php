@@ -53,9 +53,12 @@ return array(
     'ZF\\DevelopmentMode\\' => array($vendorDir . '/zfcampus/zf-development-mode/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'User\\' => array($baseDir . '/module/User/src'),
+    'UserTest\\' => array($baseDir . '/module/User/test'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Site\\' => array($baseDir . '/module/Site/src'),
+    'SiteTest\\' => array($baseDir . '/module/Site/test'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
@@ -70,4 +73,5 @@ return array(
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Application\\' => array($baseDir . '/module/Application/src'),
     'ApplicationTest\\' => array($baseDir . '/module/Application/test'),
+    'AdminTest\\' => array($baseDir . '/module/Admin/test'),
 );

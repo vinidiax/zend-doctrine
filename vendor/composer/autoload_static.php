@@ -72,12 +72,15 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
         'U' => 
         array (
             'User\\' => 5,
+            'UserTest\\' => 9,
         ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
+            'Site\\' => 5,
+            'SiteTest\\' => 9,
         ),
         'P' => 
         array (
@@ -104,6 +107,7 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
         array (
             'Application\\' => 12,
             'ApplicationTest\\' => 16,
+            'AdminTest\\' => 10,
         ),
     );
 
@@ -298,6 +302,10 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
         array (
             0 => __DIR__ . '/../..' . '/module/User/src',
         ),
+        'UserTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/User/test',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -309,6 +317,14 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Site\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Site/src',
+        ),
+        'SiteTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Site/test',
         ),
         'Psr\\Log\\' => 
         array (
@@ -365,6 +381,10 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
         'ApplicationTest\\' => 
         array (
             0 => __DIR__ . '/../..' . '/module/Application/test',
+        ),
+        'AdminTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Admin/test',
         ),
     );
 

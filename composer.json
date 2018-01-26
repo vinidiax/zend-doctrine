@@ -33,12 +33,16 @@
     "autoload": {
         "psr-4": {
             "Application\\": "module/Application/src/",
-            "User\\":"module/User/src/"
+            "User\\": "module/User/src/",
+            "Site\\": "module/Site/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ApplicationTest\\": "module/Application/test/"
+            "ApplicationTest\\": "module/Application/test/",
+            "UserTest\\": "module/User/test/",
+            "SiteTest\\": "module/Site/test/",
+            "AdminTest\\": "module/Admin/test/"
         }
     },
     "extra": [],

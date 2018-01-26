@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Site">
+            <directory>./module/Site/test</directory>
+        </testsuite>
+        <testsuite name="Admin">
+            <directory>./module/Admin/test</directory>
+        </testsuite>
+        <testsuite name="User">
+            <directory>./module/User/test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

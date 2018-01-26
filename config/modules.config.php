@@ -30,5 +30,6 @@ return [
     'DoctrineORMModule',
     'DoctrineDataFixtureModule',
     'Application',
-	'User'
+	'User',
+    'Site'
 ];
