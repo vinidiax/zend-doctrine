@@ -94,6 +94,7 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
             'Doctrine\\ORM\\' => 13,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
+            'Doctrine\\Common\\DataFixtures\\' => 29,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
@@ -337,6 +338,10 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
         ),
+        'Doctrine\\Common\\DataFixtures\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures',
+        ),
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
@@ -392,6 +397,10 @@ class ComposerStaticInit6bfd6baeae43c4fe78cc1fe4d1e8a3e9
             'DoctrineModule\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/doctrine-module/src',
+            ),
+            'DoctrineDataFixtureModule' => 
+            array (
+                0 => __DIR__ . '/..' . '/dkorsak/doctrine-data-fixture-module/src',
             ),
         ),
     );

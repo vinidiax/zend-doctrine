@@ -28,6 +28,7 @@ return [
     'Zend\Validator',
     'DoctrineModule',
     'DoctrineORMModule',
+    'DoctrineDataFixtureModule',
     'Application',
 	'User'
 ];

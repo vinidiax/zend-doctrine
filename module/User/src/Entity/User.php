@@ -1,6 +1,6 @@
 <?php
 
-
+namespace User\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -20,13 +20,6 @@ class User
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $userId;
-
-    /**
-     * @var Address
-     *
-     * @ORM\OneToOne(targetEntity="User\Entity\Address")
-     */
-    private $address;
 
     /**
      * @var string|null
@@ -141,22 +134,7 @@ class User
 	{
 		$this->userId = $userId;
 	}
-	
-	/**
-	 * @return Address
-	 */
-	public function getAddress()
-	{
-		return $this->address;
-	}
-	
-	/**
-	 * @param Address $address
-	 */
-	public function setAddress($address)
-	{
-		$this->address = $address;
-	}
+
 	
 	/**
 	 * @return null|string
