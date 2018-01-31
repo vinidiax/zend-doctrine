@@ -10,11 +10,11 @@ return [
             'orm_default' => [
                 'driverClass' => \Doctrine\DBAL\Driver\Mysqli\Driver::class,
                 'params' => [
-                        'host'     => 'mysql.vinidiax.kinghost.net',
+                        'host'     => 'localhost',
                         'port'     => '3306',
-                        'user'     => 'vinidiax',
-                        'password' => 'adere134',
-                        'dbname'   => 'vinidiax',
+                        'user'     => 'root',
+                        'password' => 'testesenha123',
+                        'dbname'   => 'pesca',
                 ],
             ],
         ],
